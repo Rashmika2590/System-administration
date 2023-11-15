@@ -1,0 +1,607 @@
+1]
+
+cscuser@cscuser:~$ cd
+
+cscuser@cscuser:~$ pwd
+/home/cscuser
+
+cscuser@cscuser:~$ ls -al
+total 320
+drwxr-x--- 36 cscuser cscuser  4096 Nov  8 14:59  .
+drwxr-xr-x  6 root    root     4096 Aug 16 11:59  ..
+-rw-rw-r--  1 cscuser cscuser 26530 Aug  7 17:20 '7th aug assignment.odt'
+-rw-rw-r--  1 cscuser cscuser 12647 Aug  7 17:19 '7th aug assignment.txt'
+-rw-rw-r--  1 cscuser cscuser  5889 Jul 31 16:59 'assign 31st july.txt'
+-rw-------  1 cscuser cscuser 18107 Nov  8 15:19  .bash_history
+-rw-r--r--  1 cscuser cscuser   220 Dec  1  2022  .bash_logout
+-rw-r--r--  1 cscuser cscuser  3771 Dec  1  2022  .bashrc
+drwx------ 17 cscuser cscuser  4096 Aug 22 16:26  .cache
+drwxrwxrw-  3 cscuser cscuser  4096 Jul 24 14:51  cm
+drwx------ 19 cscuser cscuser  4096 Sep  1 10:14  .config
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 31 16:27  cscuser
+drwxr-xr-x  3 cscuser cscuser  4096 Nov  8 14:58  Desktop
+drwxr-xr-x  2 cscuser cscuser  4096 Aug 22 17:30  Documents
+drwxr-xr-x  3 cscuser cscuser  4096 Nov  8 14:59  Downloads
+drwx------  2 cscuser cscuser  4096 Nov  9 14:29  .gnupg
+-rw-------  1 cscuser cscuser    41 Aug 25 11:08  .lesshst
+drwx------  3 cscuser cscuser  4096 Dec  5  2022  .local
+-rwxrwx---  1 cscuser cscuser    48 Jul 31 15:04  memo.txt
+-rw-rw-r--  1 cscuser cscuser    34 Nov  8 14:43  message
+drwx------  3 cscuser cscuser  4096 Feb 16  2023  .mozilla
+drwxr-xr-x  2 cscuser cscuser  4096 Dec  5  2022  Music
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 12:12  mybackups
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 24 15:55  Mybackups
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 24 15:42  MyBak
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 24 15:59  MyBkup
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 24 15:42  MyData
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 12:01  myDocs
+drwxrwxr-x  2 cscuser cscuser  4096 Jul 24 15:50  MyDocs
+dr--r--r--  2 cscuser cscuser  4096 Aug 25 12:23  mydocuments
+-rw-rw-r--  1 cscuser cscuser     3 Jul 24 15:12  Myfirstfile.txt
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 11:45  Myfolder
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 11:29  MyFolder
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 11:53  Myfolder2
+drwxrwxr-x  2 cscuser cscuser  4096 Aug 11 11:29  MyFolder2
+drwxr-xr-x  2 cscuser cscuser  4096 Dec  5  2022  Pictures
+drwx------  3 cscuser cscuser  4096 Jan 12  2023  .pki
+drwxrwxr-x  2 cscuser cscuser  4096 Nov  8 14:52  poetry
+-rw-r--r--  1 cscuser cscuser   807 Dec  1  2022  .profile
+drwxr-xr-x  2 cscuser cscuser  4096 Dec  5  2022  Public
+-rw-rw-r--  1 cscuser cscuser    60 Nov  8 14:41  secret-of-the-universe.txt
+drwx------  5 cscuser cscuser  4096 Jan 12  2023  snap
+drwx------  2 cscuser cscuser  4096 Dec  8  2022  .ssh
+-rw-r--r--  1 cscuser cscuser     0 Dec  8  2022  .sudo_as_admin_successful
+drwx------  3 cscuser cscuser  4096 Jul 24 14:44  Temp
+drwxr-xr-x  2 cscuser cscuser  4096 Dec  5  2022  Templates
+-rw-r--r--  1 cscuser cscuser     0 Jul 31 16:25  test
+drwx------  6 cscuser cscuser  4096 Feb 16  2023  .thunderbird
+drwxrwxr-x  3 cscuser cscuser  4096 Jul 17 17:13  unixstuff
+-rw-rw-r--  1 cscuser cscuser 49087 Aug  7 17:23 'Untitled 3.odt'
+-rw-rw-r--  1 cscuser cscuser  4728 Aug 25 13:07 'Untitled Document 1'
+drwxr-xr-x  2 cscuser cscuser  4096 Dec  5  2022  Videos
+-rw-------  1 cscuser cscuser 11041 Aug 11 12:09  .viminfo
+
+cscuser@cscuser:~$ cd .
+
+cscuser@cscuser:~$ pwd
+/home/cscuser
+
+cscuser@cscuser:~$ cd ..
+
+cscuser@cscuser:/home$ pwd
+/home
+
+cscuser@cscuser:/home$ ls -al
+total 1152688
+drwxr-xr-x  6 root     root           4096 Aug 16 11:59 .
+drwxr-xr-x 22 root     root           4096 Nov  1 15:29 ..
+drwxr-x---  2 cscstaff cscstaff       4096 Aug 16 11:59 cscstaff
+drwxr-x--- 36 cscuser  cscuser        4096 Nov  8 14:59 cscuser
+-rw-r--r--  1 root     root     1180323840 Aug  7 15:31 mybackup.tgz
+drwxr-xr-x  2 root     root           4096 Aug  7 16:45 myDocs
+drwxr-xr-x  2 root     root           4096 Aug  7 15:21 temp
+
+cscuser@cscuser:/home$ cd ..
+
+cscuser@cscuser:/$ pwd
+/
+
+cscuser@cscuser:/$ ls -al
+total 96
+drwxr-xr-x  22 root    root     4096 Nov  1 15:29 .
+drwxr-xr-x  22 root    root     4096 Nov  1 15:29 ..
+lrwxrwxrwx   1 root    root        7 Dec  1  2022 bin -> usr/bin
+drwxr-xr-x   4 root    root     4096 Nov  8 14:37 boot
+drwxrwxr-x   2 root    root     4096 Dec  1  2022 cdrom
+drwx------   3 root    root     4096 Jul 31 16:19 cscuser
+drwxr-xr-x  19 root    root     4620 Nov  9 14:24 dev
+drwxr-xr-x 134 root    root    12288 Nov  8 14:36 etc
+drwxr-xr-x   6 root    root     4096 Aug 16 11:59 home
+lrwxrwxrwx   1 root    root        7 Dec  1  2022 lib -> usr/lib
+lrwxrwxrwx   1 root    root        9 Dec  1  2022 lib32 -> usr/lib32
+lrwxrwxrwx   1 root    root        9 Dec  1  2022 lib64 -> usr/lib64
+lrwxrwxrwx   1 root    root       10 Dec  1  2022 libx32 -> usr/libx32
+drwx------   2 root    root    16384 Dec  1  2022 lost+found
+drwxr-xr-x   3 root    root     4096 Jan 26  2023 media
+drwxr-xr-x   2 root    root     4096 Apr 19  2022 mnt
+drwxr-xr-x   4 root    root     4096 Feb 16  2023 opt
+-rw-rw-r--   1 cscuser cscuser    83 Nov  1 15:26 poetry
+dr-xr-xr-x 316 root    root        0 Nov  9 14:24 proc
+drwx------   6 root    root     4096 Aug  7 15:42 root
+drwxr-xr-x  39 root    root     1000 Nov  9 14:25 run
+lrwxrwxrwx   1 root    root        8 Dec  1  2022 sbin -> usr/sbin
+drwxr-xr-x  13 root    root     4096 Jul 17 15:27 snap
+drwxr-xr-x   2 root    root     4096 Apr 19  2022 srv
+dr-xr-xr-x  13 root    root        0 Nov  9 14:24 sys
+drwxr-xr-x   2 root    root     4096 Jul 31 15:41 test
+drwxrwxrwt  21 root    root     4096 Nov  9 14:30 tmp
+drwxr-xr-x  14 root    root     4096 Apr 19  2022 usr
+drwxr-xr-x  15 root    root     4096 Dec  8  2022 var
+
+cscuser@cscuser:/$ cd ..
+
+cscuser@cscuser:/$ pwd
+/
+
+cscuser@cscuser:/$ cd etc
+
+cscuser@cscuser:/etc$ ls -al | more
+total 1176
+drwxr-xr-x 134 root root   12288 Nov  8 14:36 .
+drwxr-xr-x  22 root root    4096 Nov  1 15:29 ..
+drwxr-xr-x   3 root root    4096 Apr 19  2022 acpi
+-rw-r--r--   1 root root    3028 Apr 19  2022 adduser.conf
+drwxr-xr-x   3 root root    4096 Apr 19  2022 alsa
+drwxr-xr-x   2 root root    4096 Sep 15 07:00 alternatives
+-rw-r--r--   1 root root     335 Mar 23  2022 anacrontab
+drwxr-xr-x   9 root root    4096 Aug 25 13:03 apache2
+-rw-r--r--   1 root root     433 Mar 23  2022 apg.conf
+drwxr-xr-x   5 root root    4096 Apr 19  2022 apm
+drwxr-xr-x   3 root root    4096 Feb 20  2023 apparmor
+drwxr-xr-x   8 root root    4096 Nov  8 14:33 apparmor.d
+drwxr-xr-x   4 root root    4096 Jul 24 14:29 apport
+-rw-r--r--   1 root root     769 Feb 22  2022 appstream.conf
+drwxr-xr-x   8 root root    4096 Dec  1  2022 apt
+drwxr-xr-x   3 root root    4096 Jul 24 14:26 avahi
+-rw-r--r--   1 root root    2319 Jan  6  2022 bash.bashrc
+-rw-r--r--   1 root root      45 Nov 11  2021 bash_completion
+drwxr-xr-x   2 root root    4096 Jul 24 14:29 bash_completion.d
+drwxr-sr-x   2 root bind    4096 Nov  8 14:33 bind
+-rw-r--r--   1 root root     367 Dec 16  2020 bindresvport.blacklist
+drwxr-xr-x   2 root root    4096 Apr  7  2022 binfmt.d
+drwxr-xr-x   2 root root    4096 Apr 19  2022 bluetooth
+-rw-r-----   1 root root      33 Apr 19  2022 brlapi.key
+drwxr-xr-x   7 root root    4096 Apr 19  2022 brltty
+-rw-r--r--   1 root root   29219 Mar 18  2022 brltty.conf
+drwxr-xr-x   3 root root    4096 Apr 19  2022 ca-certificates
+-rw-r--r--   1 root root    6253 Jul 24 14:32 ca-certificates.conf
+cscuser@cscuser:/etc$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:116:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:117::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+nm-openvpn:x:120:126:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:121:128::/var/lib/saned:/usr/sbin/nologin
+colord:x:122:129:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:123:130::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:124:131:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:125:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:126:7:HPLIP system user,,,:/run/hplip:/bin/false
+gdm:x:127:133:Gnome Display Manager:/var/lib/gdm3:/bin/false
+cscuser:x:1000:1000:cscuser,,,:/home/cscuser:/bin/bash
+bind:x:128:136::/var/cache/bind:/usr/sbin/nologin
+fwupd-refresh:x:129:137:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+cscstaff:x:1001:1001:cscstaff,,,:/home/cscstaff:/bin/bash
+webadmin123:x:800:700:Web Site Administrator:/home/webadmin123:/bin/bash
+
+cscuser@cscuser:/etc$ cd -
+/
+
+cscuser@cscuser:/$ pwd
+
+
+
+2]
+cscuser@cscuser:/$ cd /bin
+cscuser@cscuser:/bin$ ls
+'['                                   mkfifo
+ aa-enabled                           mkfontdir
+ aa-exec                              mkfontscale
+ aa-features-abi                      mkisofs
+ ab...
+
+cscuser@cscuser:/$ cd /usr/bin
+cscuser@cscuser:/usr/bin$ ls
+'['                                   mkfifo
+ aa-enabled                           mkfontdir
+ aa-exec                              mkfontscale
+ aa-features-abi                      mkisofs
+ ab...
+ 
+ cscuser@cscuser:/$ cd /sbin
+cscuser@cscuser:/sbin$ ls
+a2disconf                    iwconfig
+a2dismod                     iwevent
+a2dissite                    iwgetid
+a2enconf                     iwlist
+a2enmod                      iwpriv
+a2ensite...
+
+cscuser@cscuser:/$ cd /tmp
+cscuser@cscuser:/tmp$ ls
+snap-private-tmp
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-apache2.service-NPgaxg
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-colord.service-oCs1yy
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-fwupd.service-1XoMOC
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-ModemManager.service-lXADwD
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-power-profiles-daemon.service-QzxAyC
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-switcheroo-control.service-hAnbv8
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-systemd-logind.service-XtGBth
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-systemd-oomd.service-ZN8JVk
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-systemd-resolved.service-Lr0nIY
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-systemd-timesyncd.service-8bp6Kf
+systemd-private-96ec75db217f4c8ca49e9c4540b8c41d-upower.service-Pb6jYe
+tracker-extract-3-files.1000
+tracker-extract-3-files.127
+
+cscuser@cscuser:/$ cd /boot
+cscuser@cscuser:/boot$ ls
+config-6.2.0-32-generic      memtest86+.elf
+config-6.2.0-36-generic      memtest86+_multiboot.bin
+efi                          System.map-6.2.0-32-generic
+grub                         System.map-6.2.0-36-generic
+initrd.img                   vmlinuz
+initrd.img-6.2.0-32-generic  vmlinuz-6.2.0-32-generic
+initrd.img-6.2.0-36-generic  vmlinuz-6.2.0-36-generic
+initrd.img.old               vmlinuz.old
+memtest86+.bin
+
+cscuser@cscuser:/boot$ ls
+config-6.2.0-32-generic      memtest86+.elf
+config-6.2.0-36-generic      memtest86+_multiboot.bin
+efi                          System.map-6.2.0-32-generic
+grub                         System.map-6.2.0-36-generic
+initrd.img                   vmlinuz
+initrd.img-6.2.0-32-generic  vmlinuz-6.2.0-32-generic
+initrd.img-6.2.0-36-generic  vmlinuz-6.2.0-36-generic
+initrd.img.old               vmlinuz.old
+memtest86+.bin
+
+
+3]
+
+cscuser@cscuser:/$ cd dev
+cscuser@cscuser:/dev$ ls
+autofs           loop14        stderr  tty45      ttyS28
+block            loop15        stdin   tty46      ttyS29
+bsg              loop16        stdout  tty47      ttyS3
+btrfs-control    loop17        tpm0    tty48      ttyS30
+bus              loop18        tpmrm0  tty49      ttyS31
+cdrom            loop19        tty     tty5       ttyS4
+char             loop2         tty0    tty50      ttyS5
+console          loop3         tty1    tty51      ttyS6
+core             loop4         tty10   tty52      ttyS7
+cpu              loop5         tty11   tty53      ttyS8
+cpu_dma_latency  loop6         tty12   tty54      ttyS9
+cuse             loop7         tty13   tty55      udmabuf
+disk             loop8         tty14   tty56      uhid
+dma_heap         loop9         tty15   tty57      uinput
+dri              loop-control  tty16   tty58      urandom
+drm_dp_aux0      mapper        tty17   tty59      userfaultfd
+ecryptfs         mcelog        tty18   tty6       userio
+fb0              mei0          tty19   tty60      vcs
+fd               mem           tty2    tty61      vcs1
+full             mqueue        tty20   tty62      vcs2
+fuse             net           tty21   tty63      vcs3
+gpiochip0        null          tty22   tty7       vcs4
+hidraw0          nvram         tty23   tty8       vcs5
+hidraw1          port          tty24   tty9       vcs6
+hidraw2          ppp           tty25   ttyprintk  vcsa
+hpet             psaux         tty26   ttyS0      vcsa1
+hugepages        ptmx          tty27   ttyS1      vcsa2
+hwrng            pts           tty28   ttyS10     vcsa3
+i2c-0            random        tty29   ttyS11     vcsa4
+i2c-1            rfkill        tty3    ttyS12     vcsa5
+i2c-2            rtc           tty30   ttyS13     vcsa6
+i2c-3            rtc0          tty31   ttyS14     vcsu
+i2c-4            sda           tty32   ttyS15     vcsu1
+i2c-5            sda1          tty33   ttyS16     vcsu2
+i2c-6            sda2          tty34   ttyS17     vcsu3
+initctl          sda3          tty35   ttyS18     vcsu4
+input            sda4          tty36   ttyS19     vcsu5
+kmsg             sda5          tty37   ttyS2      vcsu6
+kvm              sda6          tty38   ttyS20     vfio
+log              sda7          tty39   ttyS21     vga_arbiter
+loop0            sg0           tty4    ttyS22     vhci
+loop1            sg1           tty40   ttyS23     vhost-net
+loop10           shm           tty41   ttyS24     vhost-vsock
+loop11           snapshot      tty42   ttyS25     zero
+loop12           snd           tty43   ttyS26     zfs
+loop13           sr0           tty44   ttyS27
+
+crw--w----  1 cscuser tty       4,     2 Nov  9 14:25 tty2
+
+
+4]
+
+cscuser@cscuser:/$ cd proc
+cscuser@cscuser:/proc$ ls
+1      16382  1861   2873  55   76             irq
+10     16413  1862   29    555  77             kallsyms
+100    1648   1864   3     56   78             kcore
+1002   1650   1865   31    57   789            keys
+1016   1663   1866   32    58   79             key-users
+1038   167    1868   321   587  798            kmsg
+1046   168    1869   33    59   8              kpagecgroup
+11     169    19     34    593  80             kpagecount
+1196   1694   1902   35    594  81             kpageflags
+12     1697   1918   353   6    818            loadavg
+120    17     19376  367   60   827            locks
+1216   170    19403  3680  61   9              mdstat
+123    1703   19425  3770  62   90             meminfo
+13     171    19434  3785  622  906            misc
+13220  172    19462  38    623  91             modules
+135    173    19463  3819  626  913            mounts
+136    174    19500  39    627  915            mtrr
+137    175    19504  3913  628  92             net
+1394   176    1952   3945  629  94             pagetypeinfo
+14     1763   1992   398   63   943            partitions
+1459   1765   1993   3985  635  944            pressure
+1499   1766   2      4     636  945            schedstat
+15     177    20     40    637  95             scsi
+1508   1773   2003   4069  638  998            self
+1509   1777   2006   41    639  acpi           slabinfo
+1515   178    2034   4174  64   asound         softirqs
+1516   1782   21     4176  642  bootconfig     stat
+1517   1786   2135   43    643  buddyinfo      swaps
+1530   1790   215    44    644  bus            sys
+1538   1797   216    45    645  cgroups        sysrq-trigger
+1550   1808   2160   4553  65   cmdline        sysvipc
+1559   1815   2179   4557  658  consoles       thread-self
+1563   182    2183   456   66   cpuinfo        timer_list
+1569   1822   22     4562  660  crypto         tty
+1581   1827   2204   457   67   devices        uptime
+1592   1829   2225   458   68   diskstats      version
+1597   183    2285   46    69   dma            version_signature
+16     1846   23     4682  7    driver         vmallocinfo
+1600   1847   2303   47    70   dynamic_debug  vmstat
+16235  1849   2351   49    708  execdomains    zoneinfo
+16258  1851   2398   5     72   fb
+16277  1852   25     50    728  filesystems
+16287  1853   255    51    73   fs
+16313  1856   26     52    74   interrupts
+16314  1857   27     53    75   iomem
+16378  1860   28     547   752  ioports
+
+cscuser@cscuser:/proc$ cat interrupts 
+            CPU0       CPU1       CPU2       CPU3       CPU4       CPU5       
+   1:          0          0          0          0          4          0  IR-IO-APIC    1-edge      i8042
+   8:          0          0          0          0          0          0  IR-IO-APIC    8-edge      rtc0
+   9:          0          4          0          0          0          0  IR-IO-APIC    9-fasteoi   acpi
+  12:          0          0          0          6          0          0  IR-IO-APIC   12-edge      i8042
+  14:          0          0          0          0          0          0  IR-IO-APIC   14-fasteoi   INT3451:00
+  16:          0          0          0          0        303          0  IR-IO-APIC   16-fasteoi   idma64.0, i801_smbus, i2c_designware.0
+  17:          0          0          0          0          0          0  IR-IO-APIC   17-fasteoi   idma64.1, i2c_designware.1
+  20:          0          0          0          0          0          0  IR-IO-APIC   20-fasteoi   idma64.2
+ 120:          0          0          0          0          0          0  DMAR-MSI    0-edge      dmar0
+ 121:          0          0          0          0          0          0  DMAR-MSI    1-edge      dmar1
+ 122:          0          0          0          0          0          0  IR-PCI-MSI-0000:00:1c.0    0-edge      PCIe PME, aerdrv
+ 123:          0          0         53          0      20153          0  IR-PCI-MSI-0000:00:14.0    0-edge      xhci_hcd
+ 124:          0      38426          0       6595          0          0  IR-PCI-MSI-0000:00:17.0    0-edge      ahci[0000:00:17.0]
+ 125:          0          0          0          0          0     868967  IR-PCI-MSIX-0000:01:00.0    0-edge      enp1s0
+ 126:          0         49          0          0          0          0  IR-PCI-MSI-0000:00:16.0    0-edge      mei_me
+ 127:          0          0        200     150347          0          0  IR-PCI-MSI-0000:00:02.0    0-edge      i915
+ 128:          0          0          0        782          0          0  IR-PCI-MSI-0000:00:1f.3    0-edge      snd_hda_intel:card0
+ NMI:          4          4          4          5          4          4   Non-maskable interrupts
+ LOC:      94504      97149      99494     134892      95065     305163   Local timer interrupts
+ SPU:          0          0          0          0          0          0   Spurious interrupts
+ PMI:          4          4          4          5          4          4   Performance monitoring interrupts
+ IWI:       3083       2591       3196      63704       2130       1998   IRQ work interrupts
+ RTR:          0          0          0          0          0          0   APIC ICR read retries
+ RES:       5231       5347       5295       4945       5301       5301   Rescheduling interrupts
+ CAL:      71956      76877      86098      73966      76220      81273   Function call interrupts
+ TLB:      50503      47423      51170      52067      54382      53057   TLB shootdowns
+ TRM:          0          0          0          0          0          0   Thermal event interrupts
+ THR:          0          0          0          0          0          0   Threshold APIC interrupts
+ DFR:          0          0          0          0          0          0   Deferred Error APIC interrupts
+ MCE:          0          0          0          0          0          0   Machine check exceptions
+ MCP:          4          5          5          5          5          5   Machine check polls
+ ERR:          0
+ MIS:          0
+ PIN:          0          0          0          0          0          0   Posted-interrupt notification event
+ NPI:          0          0          0          0          0          0   Nested posted-interrupt event
+ PIW:          0          0          0          0          0          0   Posted-interrupt wakeup event
+ 
+scuser@cscuser:/proc$ cat devices 
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  5 ttyprintk
+  6 lp
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 89 i2c
+ 99 ppdev
+108 ppp
+116 alsa
+128 ptm
+136 pts
+180 usb
+189 usb_device
+202 cpu/msr
+204 ttyMAX
+226 drm
+236 aux
+237 cec
+238 lirc
+239 mei
+240 hidraw
+241 ttyDBC
+242 wwan_port
+243 bsg
+244 watchdog
+245 remoteproc
+246 ptp
+247 pps
+248 rtc
+249 dma_heap
+250 dax
+251 dimmctl
+252 ndctl
+253 tpm
+254 gpiochip
+261 accel
+
+Block devices:
+  7 loop
+  8 sd
+  9 md
+ 11 sr
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+253 device-mapper
+254 mdp
+259 blkext
+
+cscuser@cscuser:/proc$ cat cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
+stepping	: 10
+microcode	: 0xf4
+cpu MHz		: 800.016
+cache size	: 9216 KB
+physical id	: 0
+siblings	: 6
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes...
+
+cscuser@cscuser:/proc$ cat uptime
+1314.40 7099.83
+
+
+5]
+cscuser@cscuser:/$ cd ~cscstaff
+
+6]
+cscuser@cscuser:/$ cd ~
+
+7]
+cscuser@cscuser:~$ mkdir work play
+
+8]
+cscuser@cscuser:~$ rmdir work
+
+9]
+cscuser@cscuser:~$ cp /etc/passwd .
+
+10]
+cscuser@cscuser:~$ mv passwd ./play
+
+11]
+cscuser@cscuser:~$ ln -s ../../dev/tty terminal
+
+12]
+cscuser@cscuser:~/play$ ls -l
+total 4
+-rw-r--r-- 1 cscuser cscuser 3074 Nov  9 14:57 passwd
+cscuser@cscuser:~/play$ ls -L
+passwd
+
+13]
+cscuser@cscuser:~$ cat > hello.txt
+hello world
+
+14]
+cscuser@cscuser:~$ cp hello.txt terminal 
+hello world
+
+15]
+cscuser@cscuser:~$ dir
+7th\ aug\ assignment.odt  Mybackups	   play
+7th\ aug\ assignment.txt  MyBak		   poetry
+assign\ 31st\ july.txt	  MyBkup	   Public
+cm			  MyData	   secret-of-the-universe.txt
+cscuser			  myDocs	   snap
+Desktop			  MyDocs	   Temp
+Documents		  mydocuments	   Templates
+Downloads		  Myfirstfile.txt  terminal
+hello.txt		  Myfolder	   test
+memo.txt		  MyFolder	   unixstuff
+message			  Myfolder2	   Untitled\ 3.odt
+Music			  MyFolder2	   Untitled\ Document\ 1
+mybackups
+
+16]
+cscuser@cscuser:~$ cat > $shell
+bash: $shell: ambiguous redirect
+
+17]
+cscuser@cscuser:~$ cat > #hell
+bash: syntax error near unexpected token `newline'
+
+18]
+cscuser@cscuser:~$ cat > -hell
+hello
+
+cscuser@cscuser:~$ rm -- -hell
+
+19]
+cscuser@cscuser:~$ echo {con,pre}{sent,fer}{s,ed}
+consents consented confers confered presents presented prefers prefered
+
+20]
+cscuser@cscuser:~$ cp -r play work
+
+21]
+cscuser@cscuser:~$ rm -r work
+
+
+
+
+
+
+
